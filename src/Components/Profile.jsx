@@ -5,7 +5,7 @@ import { useAuth } from "../Contexts/AuthContext";
 import { IconButton } from "@mui/material";
 import { ArrowBack, Mode, CheckCircle, Cancel } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
-import Moment from "react-moment";
+// import Moment from "react-moment";
 function Profile() {
   const [bio, setBio] = useState(JSON.parse(localStorage.getItem("bio")));
   const [input, setInput] = useState("");
@@ -49,10 +49,10 @@ function Profile() {
           <div className={Styles.info}>
             <p>Your account ~</p>
             <h3>{currentUser.email}</h3>
-            <p>
+            {/* <p>
               Joined on :{" "}
               <Moment format="YYYY:MM:DD">{currentUser.createdAt}</Moment>{" "}
-            </p>
+            </p> */}
           </div>
           <div className={Styles.bio}>
             <div className="editIcon">

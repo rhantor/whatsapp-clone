@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Style from "../css/ChatBoxCss/ChatBox.module.css";
 import { useAuth } from "../Contexts/AuthContext";
-import Moment from "react-moment";
+// import Moment from "react-moment";
 const Message = ({ msg }) => {
   const { currentUser } = useAuth();
 
@@ -26,9 +26,9 @@ const Message = ({ msg }) => {
           <>
             {msg.input}
             <br />
-            <small style={{ fontSize: "10px" }}>
+            {/* <small style={{ fontSize: "10px" }}>
               <Moment fromNow>{msg.createAt.toDate()}</Moment>
-            </small>
+            </small> */}
           </>
         )}
       </div>
