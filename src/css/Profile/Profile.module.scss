@@ -1,0 +1,92 @@
+.profileBody {
+  background-color: #222020;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  background-color: #1e2020;
+  min-width: 40%;
+  width: 90%;
+  max-width: 99%;
+  padding: 1rem;
+}
+.proHeader {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.imgSec {
+  width: 100%;
+
+  .Img {
+    min-width: 180px;
+    max-width: 400px;
+    width: 300px;
+    height: 300px;
+    max-height: 400px;
+    overflow: hidden;
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    user-select: none;
+
+    img {
+      width: 100%;
+      height: 100%;
+      width: fit-content;
+      border-radius: 50%;
+      user-select: none;
+    }
+  }
+}
+.details {
+  color: #c0b7b7;
+  text-align: center;
+
+  h1 {
+    font-size: 27px;
+    font-family: cursive;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 4px #000000;
+    margin: 1rem;
+  }
+
+  .bioText {
+    width: 100%;
+    position: relative;
+    .bioInput {
+      width: 60%;
+      background: none;
+      color: #c0b7b7;
+      padding-left: 0.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 16px;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #c0b7b7;
+    }
+    .inputLength {
+      position: absolute;
+      right: 45px;
+      top: 7px;
+    }
+  }
+}
+.info{
+  text-align: left;
+  margin: 0.5rem 0;
+  p , h3{
+    margin: 0.3rem 0;
+  }
+}
+.bioTitle{
+  text-align: left;
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+// font-family: 'Ubuntu', sans-serif;
+$dangerRed : #f0222296;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.info{
+  text-align: center;
+  margin: 1.5rem 0;
+  letter-spacing: 1px;
+  font-family: 'Ubuntu', sans-serif;
+  a{
+    text-decoration:  none;
+  }
+}
+.error {
+  background-color: $dangerRed;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  color: #f0f0f0;
+}
+.Icon *{
+  color: #f0f0f0;
+}
